@@ -33,10 +33,10 @@ id = ""
     weight     = 1
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    #blog = "/blog/:year/:month/:day/:filename/"
 
 [params]
-    viewMorePostLink = "/blog/"
+    #viewMorePostLink = "/blog/"
     author = "Michael Hall"
 
 # Enable and disable widgets for the right sidebar
