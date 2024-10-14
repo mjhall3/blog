@@ -1,4 +1,52 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mjhall3.github.io/blog/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Michael Hall\'s Book Review Site'
 theme = 'hugo-universal-theme'
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+[services]
+[services.disqus]
+# Enable comments by entering your Disqus shortname
+Shortname = "devcows"
+[services.googleAnalytics]
+# Enable Google Analytics by entering your tracking code
+id = ""
+
+[menu]
+
+# Main menu
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "Michael Hall"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = ""
+    hide_summary = false
