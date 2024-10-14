@@ -17,7 +17,7 @@ pluralizelisttitles = false
 [services]
 [services.disqus]
 # Enable comments by entering your Disqus shortname
-Shortname = "devcows"
+#Shortname = "devcows"
 [services.googleAnalytics]
 # Enable Google Analytics by entering your tracking code
 id = ""
@@ -31,12 +31,20 @@ id = ""
     url        = "/"
     weight     = 1
 
-[permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+[[menu.main]]
+    name       = "Blog"
+    identifier = "section.ap-blog"
+    url        = "/blog/"
+    weight     = 3
+    parent     = "menu.allpages"
+    post       = 4
 
 [params]
     viewMorePostLink = "/blog/"
     author = "Michael Hall"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -49,3 +57,8 @@ id = ""
     title = "From our blog"
     subtitle = ""
     hide_summary = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
