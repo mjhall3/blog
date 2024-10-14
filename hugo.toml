@@ -1,5 +1,4 @@
 baseURL = 'https://mjhall3.github.io/blog/'
-languageCode = 'en-us'
 title = "Michael Hall's Book Review Site"
 theme = 'hugo-universal-theme'
 languageCode = "en-us"
