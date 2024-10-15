@@ -1,4 +1,5 @@
 baseURL = 'https://mjhall3.github.io/blog/'
+#baseURL = 'http://localhost:1313/blog'
 title = "Michael's Creative Corner"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
