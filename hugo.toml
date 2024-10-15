@@ -62,6 +62,12 @@ id = ""
     weight     = 10
     post       = 1
 
+[[menu.topbar]]
+    weight = 4
+    name = "Instagram"
+    url = "https://www.instagram.com/mjhall32/"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
+
 [params]
     viewMorePostLink = "/blog/"
     author = "Michael Hall"
@@ -77,9 +83,25 @@ id = ""
 
     dropdown_mouse_over = false
 
+#    email = "mjhall3 AT fastmail DOT net"
+
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+#    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+#      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+#      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+#      </p>
+#      """
+
+#[[params.menu]]
+#    name = "Contact"
+#    url  = "/contact"
+#    weight = 4
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
