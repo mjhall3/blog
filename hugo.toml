@@ -8,11 +8,12 @@ defaultContentLanguage = "en"
 # number of words of summarized post content (default 70)
 summaryLength = 70
 
-# Define the number of posts per page
-paginate = 10
-
 # not pluralize title pages by default
 pluralizelisttitles = false
+
+[pagination]
+    # Define the number of posts per page
+    paperSize = 10
 
 [services]
 [services.disqus]
