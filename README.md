@@ -1,10 +1,10 @@
 # Readme
 
-This is the personal blog of Michael Hall. The purposes for this blog are for things that include:
+This is the personal blog of Michael Hall. The blog serves several purposes, including:
 
-1. Book reviews
-2. Computer work
-3. Personal projects
-4. Sharing faith
-5. Sharing published works
-6. Promoting Hailey's art and works
+* Book reviews
+* Computer projects
+* Personal endeavors
+* Sharing my faith
+* Showcasing published works
+* Promoting my wife's art and creations
