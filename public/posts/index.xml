@@ -13,7 +13,7 @@
       <link>http://localhost:1313/blog/posts/my-first-post/</link>
       <pubDate>Tue, 15 Oct 2024 16:32:59 -0500</pubDate>
       <guid>http://localhost:1313/blog/posts/my-first-post/</guid>
-      <description></description>
+      <description>&lt;p&gt;Here is some text for my first post.&lt;/p&gt;&#xA;&lt;p&gt;Here is the second paragraph. What do you think?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
