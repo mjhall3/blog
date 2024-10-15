@@ -1,6 +1,6 @@
-# Readme
+# Michael's Creative Corner
 
-Welcome to Michael's Creative Corner, the personal blog of Michael Hall. The blog serves several purposes, including:
+Welcome to **Michael's Creative Corner**, the personal blog of Michael Hall. The blog serves several purposes, including:
 
 * Book reviews
 * Computer projects
