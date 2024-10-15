@@ -72,6 +72,9 @@ id = ""
 
     about_us = "<p>Michael Hall is a university lecturer at Washington University in St. Louis with a PhD in Computer Engineering. He is passionate about technology, faith, reading, and fitness. Michael enjoys writing book reviews to help fellow authors promote their work and actively supports his wife’s artistic endeavors.</p>"
 
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
     dropdown_mouse_over = false
 
 
