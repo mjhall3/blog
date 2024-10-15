@@ -34,20 +34,45 @@ id = ""
     url        = "/"
     weight     = 1
 
-#[[menu.main]]
-#    name       = "Blog"
-#    identifier = "section.ap-blog"
-#    url        = "/blog/"
-#    weight     = 3
-#    parent     = "menu.allpages"
-#    post       = 4
+[[menu.main]]
+    name       = "Categories"
+    identifier = "section.categories"
+    url        = "/categories/"
+    weight     = 4
+    post       = 1
+
+[[menu.main]]
+    name       = "Blog"
+    identifier = "section.blog"
+    url        = "/blog/"
+    weight     = 3
+    post       = 1
+
+[[menu.main]]
+    name       = "Contact"
+    identifier = "section.contact"
+    url        = "/contact/"
+    weight     = 15
+    post       = 1
+
+[[menu.main]]
+    name       = "About"
+    identifier = "section.about"
+    url        = "/about/"
+    weight     = 10
+    post       = 1
 
 [params]
     viewMorePostLink = "/blog/"
     author = "Michael Hall"
     defaultKeywords = ["personal blog", "book reviews", "books"]
 
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
     about_us = "<p>Michael Hall is a university lecturer at Washington University in St. Louis with a PhD in Computer Engineering. He is passionate about technology, faith, reading, and fitness. Michael enjoys writing book reviews to help fellow authors promote their work and actively supports his wife’s artistic endeavors.</p>"
+
+    dropdown_mouse_over = false
 
 
 [permalinks]
@@ -61,9 +86,12 @@ id = ""
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
+    title = "From the blog"
     subtitle = ""
     hide_summary = false
+
+[params.footer.recent_posts]
+    enable = true
 
 [taxonomies]
   category = "categories"
