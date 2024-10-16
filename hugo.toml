@@ -62,6 +62,12 @@ id = ""
     post       = 5
 
 [[menu.topbar]]
+    weight = 1
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/michael-hall-8a611a1/"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
+
+[[menu.topbar]]
     weight = 4
     name = "Instagram"
     url = "https://www.instagram.com/mjhall32/"
@@ -73,6 +79,8 @@ id = ""
     defaultKeywords = ["personal blog", "book reviews", "books"]
     defaultDescription = ""
     mainSections = ["blog"]
+
+    default_sharing_image = "img/engineering-banner.jpg"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -111,6 +119,15 @@ id = ""
     categories = true
     tags = true
     search = true
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
 
 [params.recent_posts]
     enable = true
