@@ -6,7 +6,7 @@
     pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 [[topbar]]
-    weight = 4
+    weight = 5
     name = "Instagram"
     url = "https://www.instagram.com/mjhall32/"
     pre = "<i class='fab fa-2x fa-instagram'></i>"
@@ -15,40 +15,40 @@
 #[[main]]
 #    name       = "Home"
 #    identifier = "menu.home"
-#    url        = "/"
+#    pageRef    = "/"
 #    weight     = 1
 
 [[main]]
     name       = "Book Reviews"
-    identifier = "book-reviews"
-    url        = "/book-reviews/"
+    identifier = "menu.book-reviews"
+    pageRef    = "/book-reviews"
     weight     = 5
     post       = 1
 
 #[[main]]
 #    name       = "Blog"
 #    identifier = "menu.blog"
-#    url        = "/blog/"
+#    pageRef    = "/blog"
 #    weight     = 3
 #    post       = 1
 
 #[[main]]
 #    name       = "Categories"
 #    identifier = "menu.categories"
-#    url        = "/categories/"
+#    pageRef    = "/categories"
 #    weight     = 4
 #    post       = 1
 
 [[main]]
     name       = "Contact"
     identifier = "menu.contact"
-    url        = "/contact/"
+    pageRef    = "/contact"
     weight     = 150
     post       = 1
 
 [[main]]
     name       = "About"
     identifier = "menu.about"
-    url        = "/about/"
+    pageRef    = "/about"
     weight     = 100
     post       = 1
