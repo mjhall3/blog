@@ -34,6 +34,13 @@ id = ""
     weight     = 1
 
 [[menu.main]]
+    name       = "Book Reviews"
+    identifier = "menu.book_reviews"
+    url        = "/book_reviews/"
+    weight     = 2
+    post       = 2
+
+[[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
     url        = "/blog/"
@@ -78,7 +85,7 @@ id = ""
     author = "Michael Hall"
     defaultKeywords = ["personal blog", "book reviews", "books"]
     defaultDescription = ""
-    mainSections = ["blog"]
+    mainSections = ["book_reviews", "blog"]
 
     default_sharing_image = "img/engineering-banner.jpg"
 
