@@ -40,12 +40,12 @@ id = ""
     weight     = 3
     post       = 2
 
-[[menu.main]]
-    name       = "Categories"
-    identifier = "menu.categories"
-    url        = "/categories/"
-    weight     = 4
-    post       = 3
+#[[menu.main]]
+#    name       = "Categories"
+#    identifier = "menu.categories"
+#    url        = "/categories/"
+#    weight     = 4
+#    post       = 3
 
 [[menu.main]]
     name       = "Contact"
@@ -87,8 +87,7 @@ id = ""
     disabled_logo = true
     logo_text = "Michael's Creative Corner"
 
-#    email = "mjhall3 AT fastmail DOT net"
-
+    contact_url = "/contact"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
