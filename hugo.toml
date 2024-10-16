@@ -73,6 +73,7 @@ id = ""
     viewMorePostLink = "/blog/"
     author = "Michael Hall"
     defaultKeywords = ["personal blog", "book reviews", "books"]
+    mainSections = ["blog"]
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
