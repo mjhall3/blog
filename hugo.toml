@@ -1,13 +1,15 @@
-#baseURL = 'https://mjhall3.github.io/blog/'
-#baseURL = 'http://localhost:1313/blog'
-baseURL = 'http://localhost:1313'
-#baseURL = ""
-#canonifyURLs = true
-title = "Michael's Creative Corner"
-theme = "hugo-universal-theme"
-languageCode = "en-us"
-# Site language. Available translations in the theme's `/i18n` directory.
+#baseURL                = "https://mjhall3.github.io/blog/"
+baseURL                = "http://localhost:1313"
+#canonifyURLs           = true
 defaultContentLanguage = "en"
+# https://gohugo.io/quick-reference/emojis/
+enableEmoji            = true
+ignoreErrors           = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+languageCode           = "en-us"
+pluralizeListTitles    = false
+timeZone               = "America/Chicago"
+title                  = "Michael's Creative Corner"
+theme                  = "hugo-universal-theme"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
@@ -17,7 +19,7 @@ pluralizelisttitles = false
 
 [pagination]
     # Define the number of posts per page
-    paperSize = 10
+    paperSize = 20
 
 [services]
 [services.disqus]
@@ -43,12 +45,12 @@ id = ""
     weight     = 2
     post       = 2
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 3
-    post       = 2
+#[[menu.main]]
+#    name       = "Blog"
+#    identifier = "menu.blog"
+#    url        = "/blog/"
+#    weight     = 3
+#    post       = 2
 
 #[[menu.main]]
 #    name       = "Categories"
@@ -88,7 +90,8 @@ id = ""
     author = "Michael Hall"
     defaultKeywords = ["personal blog", "book reviews", "books"]
     defaultDescription = ""
-    mainSections = ["book_reviews", "blog"]
+#    mainSections = ["book_reviews", "blog"]
+    mainSections = ["book_reviews"]
 
     default_sharing_image = "img/engineering-banner.jpg"
 
