@@ -20,8 +20,8 @@
 
 [[main]]
     name       = "Book Reviews"
-    identifier = "book reviews"
-    url        = "/book reviews/"
+    identifier = "book-reviews"
+    url        = "/book-reviews/"
     weight     = 5
     post       = 1
 

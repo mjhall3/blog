@@ -3,7 +3,7 @@ title = "Book Review: The Legacy Code Programmer's Toolbox"
 date = 2023-01-31
 draft = true
 categories = ["Book Review"]
-tags = ["book_review", "legacy-code", "software-development"]
+tags = ["book review", "legacy code", "software development"]
 banner = "img/legacy-code.png"
 +++
 

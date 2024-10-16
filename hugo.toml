@@ -34,8 +34,8 @@ id = ""
     author = "Michael Hall"
     defaultKeywords = ["personal blog", "book reviews", "books"]
     defaultDescription = ""
-#    mainSections = ["book_reviews", "blog"]
-    mainSections = ["book_reviews"]
+#    mainSections = ["book reviews", "blog"]
+    mainSections = ["book-reviews"]
 
     default_sharing_image = "img/engineering-banner.jpg"
 
