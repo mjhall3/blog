@@ -1,45 +1,4 @@
-# Main menu
-[[main]]
-    name       = "Home"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
-
-[[main]]
-    name       = "Book Reviews"
-    identifier = "menu.book_reviews"
-    url        = "/book_reviews/"
-    weight     = 2
-    post       = 2
-
-#[[main]]
-#    name       = "Blog"
-#    identifier = "menu.blog"
-#    url        = "/blog/"
-#    weight     = 3
-#    post       = 2
-
-#[[main]]
-#    name       = "Categories"
-#    identifier = "menu.categories"
-#    url        = "/categories/"
-#    weight     = 4
-#    post       = 3
-
-[[main]]
-    name       = "Contact"
-    identifier = "menu.contact"
-    url        = "/contact/"
-    weight     = 15
-    post       = 4
-
-[[main]]
-    name       = "About"
-    identifier = "menu.about"
-    url        = "/about/"
-    weight     = 10
-    post       = 5
-
+# Top Bar
 [[topbar]]
     weight = 1
     name = "LinkedIn"
@@ -51,3 +10,45 @@
     name = "Instagram"
     url = "https://www.instagram.com/mjhall32/"
     pre = "<i class='fab fa-2x fa-instagram'></i>"
+
+# Global menu
+#[[main]]
+#    name       = "Home"
+#    identifier = "menu.home"
+#    url        = "/"
+#    weight     = 1
+
+[[main]]
+    name       = "Book Reviews"
+    identifier = "book reviews"
+    url        = "/book reviews/"
+    weight     = 5
+    post       = 1
+
+#[[main]]
+#    name       = "Blog"
+#    identifier = "menu.blog"
+#    url        = "/blog/"
+#    weight     = 3
+#    post       = 1
+
+#[[main]]
+#    name       = "Categories"
+#    identifier = "menu.categories"
+#    url        = "/categories/"
+#    weight     = 4
+#    post       = 1
+
+[[main]]
+    name       = "Contact"
+    identifier = "menu.contact"
+    url        = "/contact/"
+    weight     = 150
+    post       = 1
+
+[[main]]
+    name       = "About"
+    identifier = "menu.about"
+    url        = "/about/"
+    weight     = 100
+    post       = 1
