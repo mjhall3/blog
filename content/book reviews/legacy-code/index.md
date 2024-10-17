@@ -7,7 +7,7 @@ tags = ["book review", "legacy code", "software development"]
 banner = "img/legacy-code.png"
 +++
 
-<img alt="img/legacy-code.png" src="img/legacy-code.png" width="200"/>
+![legacy-code.png](legacy-code.png)
 
 📚 Book Review:  The Legacy Code Programmer's Toolbox by Jonathan Boccara
 
