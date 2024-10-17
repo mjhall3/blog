@@ -32,44 +32,6 @@ id = ""
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
-# Enable or disable top bar with social icons
-[params.topbar]
-    enable = true
-#    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-#      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-#      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-#      </p>
-#      """
-
-#[[params.menu]]
-#    name = "Contact"
-#    url  = "/contact"
-#    weight = 4
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
-
-[params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more information take a look at the README.
-    enable = true
-    auto_play = true
-    slide_speed = 2000
-    pagination_speed = 1000
-
-[params.recent_posts]
-    enable = true
-    title = "From the blog"
-    subtitle = ""
-    hide_summary = false
-
-[params.footer.recent_posts]
-    enable = true
-
 [taxonomies]
   category = "categories"
   tag = "tags"
