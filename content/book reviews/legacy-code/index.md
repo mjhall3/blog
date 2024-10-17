@@ -5,6 +5,7 @@ draft = true
 categories = ["Book Review"]
 tags = ["book review", "legacy code", "software development"]
 banner = "img/legacy-code.png"
+author = "Michael Hall"
 +++
 
 ![legacy-code.png](legacy-code.png)
