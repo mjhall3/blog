@@ -5,7 +5,7 @@ defaultDescription = ""
 #mainSections = ["book-reviews", "blog"]
 mainSections = ["book-reviews"]
 
-default_sharing_image = "img/engineering-banner.jpg"
+#default_sharing_image = "img/engineering-banner.jpg"
 
 # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
 style = "default"
@@ -17,8 +17,9 @@ date_format = "January 2, 2006"
 
 dropdown_mouse_over = false
 
-disabled_logo = true
+#disabled_logo = true
 logo_text = "Michael's Creative Corner"
+logo = "img/engineering-banner.jpg"
 
 contact_url = "/contact"
 
