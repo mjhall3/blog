@@ -17,7 +17,7 @@ date_format = "January 2, 2006"
 
 dropdown_mouse_over = false
 
-#disabled_logo = true
+disabled_logo = true
 logo_text = "Michael's Creative Corner"
 logo = "img/engineering-banner.jpg"
 
