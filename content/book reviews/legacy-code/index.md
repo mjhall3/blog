@@ -8,7 +8,9 @@ banner = "img/legacy-code.png"
 author = "Michael Hall"
 +++
 
-![legacy-code.png](legacy-code.png)
+[//]: # (![legacy-code.png]&#40;legacy-code.png&#41;)
+
+{{< figure src="legacy-code.png" title="Legacy Code" width="200" >}}
 
 📚 Book Review:  The Legacy Code Programmer's Toolbox by Jonathan Boccara
 
